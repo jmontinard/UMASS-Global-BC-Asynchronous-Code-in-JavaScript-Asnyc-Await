@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.pokemon-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.pokemon {
+  margin: 20px;
+  text-align: center;
+}
+.pokemon img {
+  width: 100px;
+  height: 100px;
+}
+
+#generate-pokemon {
+  background-color: #FF0000; /* Pokemon Red */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  outline: none;
+}
+
+#generate-pokemon:hover {
+  background-color: #FF6347; /* Lighter Red on hover */
+  box-shadow: 0px 15px 20px rgba(2, 2, 2, 0.2);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.pokemon:hover {
+  transform: scale(1.05);
+}
+
+.pokemon h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.pokemon img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.pokemon p {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}

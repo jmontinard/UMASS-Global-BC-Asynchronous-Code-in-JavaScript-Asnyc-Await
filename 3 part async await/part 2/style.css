@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: green;
+}
+
+ button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+ #card-container {
+  position: relative;
+  height: 200px;
+}
+.card {
+  margin-top: 80px;
+  position: absolute;
+  transform-origin: center center;
+}
